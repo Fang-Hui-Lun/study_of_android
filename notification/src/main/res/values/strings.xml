@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">notification</string>
+    <string name="send">send notification</string>
+    <string name="cancel">cancel notification</string>
+</resources>

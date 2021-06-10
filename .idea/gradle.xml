@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="testRunner" value="PLATFORM" />
+        <option name="distributionType" value="LOCAL" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/alertdialog" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/button" />
+            <option value="$PROJECT_DIR$/constraint_layout" />
+            <option value="$PROJECT_DIR$/edittext" />
+            <option value="$PROJECT_DIR$/frame_animation" />
+            <option value="$PROJECT_DIR$/frame_layout" />
+            <option value="$PROJECT_DIR$/grid_layout" />
+            <option value="$PROJECT_DIR$/imageview" />
+            <option value="$PROJECT_DIR$/linearlayout" />
+            <option value="$PROJECT_DIR$/list_view" />
+            <option value="$PROJECT_DIR$/notification" />
+            <option value="$PROJECT_DIR$/popupwindow" />
+            <option value="$PROJECT_DIR$/progressbar" />
+            <option value="$PROJECT_DIR$/property_animation" />
+            <option value="$PROJECT_DIR$/recycler_view" />
+            <option value="$PROJECT_DIR$/relative_layout" />
+            <option value="$PROJECT_DIR$/table_layout" />
+            <option value="$PROJECT_DIR$/textview" />
+            <option value="$PROJECT_DIR$/toolbar" />
+            <option value="$PROJECT_DIR$/tweened_animation" />
+          </set>
+        </option>
+        <option name="resolveModulePerSourceSet" value="false" />
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <!-- layout_alignParent + Left/Right/Top/Bottom: 相对于父容器进行定位 -->
+    <!-- layout_centerHorizontal: 水平居中 -->
+    <!-- layout_centerVertical: 垂直居中 -->
+    <!-- layout_centerInParent: 水平垂直居中 -->
+
+    <RelativeLayout
+        android:id="@+id/rl"
+        android:layout_centerInParent="true"
+        android:background="@color/teal_200"
+        android:layout_width="100dp"
+        android:layout_height="100dp" />
+
+    <!-- layout_to+Left/Right+Of: 放置于参考组件的左/右边   -->
+    <!-- layout_above: 放置于参考组件的上方 -->
+    <!-- layout_below: 放置于参考组件的下方 -->
+    <!-- layout_align+Top/Bottom/Left/Right: 对齐参考组件的边界 -->
+    <RelativeLayout
+        android:layout_toLeftOf="@+id/rl"
+        android:layout_below="@+id/rl"
+        android:background="@color/teal_700"
+        android:layout_width="100dp"
+        android:layout_height="100dp" />
+
+    <RelativeLayout
+        android:layout_above="@+id/rl"
+        android:layout_toRightOf="@+id/rl"
+        android:background="@color/teal_700"
+        android:layout_width="100dp"
+        android:layout_height="100dp" />
+
+</RelativeLayout>

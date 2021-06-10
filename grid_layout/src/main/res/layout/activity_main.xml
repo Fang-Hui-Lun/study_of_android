@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnCount="4"
+    android:orientation="horizontal">
+    <!-- columnCount: 设置每行显示多少列 -->
+    <!-- rowCount: 设置每列显示多少行 -->
+
+    <!-- layout_column: 显示在第几列 -->
+    <!-- layout_columnSpan: 横向列合并 -->
+    <!-- layout_columnWeight: 横向剩余空间分配 -->
+    <!-- layout_row: 设置显示在第几行 -->
+    <!-- layout_rowWeight: 纵向分配剩余空间 -->
+    <!-- layout_rowSpan: 纵向列合并 -->
+    <!-- 使用列合并或者行合并需要使用 layout_gravity="fill" 才能显示效果 -->
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button" />
+    <Button
+        android:layout_row="1"
+        android:layout_column="0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button" />
+    <Button
+        android:layout_gravity="fill"
+        android:layout_columnSpan="2"
+        android:layout_rowSpan="2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button" />
+</GridLayout>

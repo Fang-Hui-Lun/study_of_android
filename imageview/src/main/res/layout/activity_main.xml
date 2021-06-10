@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <ImageView
+        android:src="@drawable/emiriya"
+        android:scaleType="centerCrop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxHeight="200dp"
+        android:maxWidth="200dp"
+        android:adjustViewBounds="true" />
+        <!-- adjustViewBounds: 调整图片的大小进行等比例缩放，使其不超过 MaxHeight 或者
+        MaxWidth 的大小，并将 ImageView 的大小调整值图片大小 -->
+        <!-- scaleType属性列表： -->
+        <!-- matrix: 保持原始大小，将图片放置于 ImageView 的左上角，超出部分会进行裁剪 -->
+        <!-- fitXY: 跳整缩放比例，使图片完全覆盖 ImageView，图片可能出现拉伸情况 -->
+        <!-- fitStart: 保持缩放比例，将图片放置于 ImageView 的左上角 -->
+        <!-- fitCenter: 保持缩放比例，将图片放置于 ImageView 的中间 -->
+        <!-- fitEnd: 保持缩放比例，将图片放置于 ImageView 的右下角 -->
+        <!-- center: 保持原始大小，将图片放置于 ImageView 的正中间，超出部分会进行裁剪 -->
+        <!-- centerCrop: 保持缩放比例，直至图片完全覆盖 ImageView，部分图片可能显示不全 -->
+        <!-- centerInside: 保持缩放比例，直至 ImageView 能完全显示图片 -->
+</LinearLayout>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- collapseColumns: 设置隐藏列,从序号 0 开始 -->
+    <!-- stretchColumns: 设置允许拉伸的列,从序号 0 开始 -->
+    <!-- shrinkColumns: 设置允许收缩的列,从序号 0 开始 -->
+    <TableRow>
+
+        <!-- layout_column: 横向列偏移 -->
+        <!-- layout_span: 横向列合并 -->
+        <Button
+            android:layout_column="1"
+            android:text="btn1"
+            android:layout_span="2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <Button
+            android:text="btn2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </TableRow>
+
+
+    <TableRow>
+        <Button
+            android:text="btn1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <Button
+            android:text="btn2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <Button
+            android:text="btn3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </TableRow>
+
+    <!-- 不使用 TableRow 组件独占一行 -->
+    <Button
+        android:text="button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:textColor="@color/purple_500"
+        android:textSize="40dp"
+        android:text="@string/app_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/teal_200"
+        />
+</TableLayout>
